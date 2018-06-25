@@ -12,7 +12,7 @@ RUN \
 COPY ansible.cfg /etc/ansible/ansible.cfg
 
 USER ansible
-WORKDIR /home/ansible
+WORKDIR /ansible
 
 VOLUME [ "/home/ansible/.ssh", "/ansible" ]
 
